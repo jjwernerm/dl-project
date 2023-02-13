@@ -1,0 +1,61 @@
+.navbar {
+  background-color: #164e63; /* Cyan 900 tailwindcss */
+}
+
+.navbar {
+  color: #ffffff;
+  font-size: 1.2em;
+}
+
+.cartLogo {
+  border-radius: 1em;
+  width: 2em;
+}
+
+.navbar-collapse {
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.btn-buscar {
+  background-color: #d97706; /* Amber 600 tailwindcss */
+  border-color: #d97706!important; /* Amber 600 tailwindcss */
+}
+
+.btn-buscar:hover {
+  background-color: #f59e0b; /* Amber 500 tailwindcss */
+  border-color: #f59e0b!important; /* Amber 500 tailwindcss */
+}
+
+.btn-registrar:hover {
+  color: #164e63!important;  
+}
+
+.btn-ingresar, .btn-modal {
+  background-color: #0891b2; /* Cyan 600 tailwindcss */
+  border-color: #0891b2!important; /* Cyan 600 tailwindcss */
+}
+
+.btn-ingresar:hover, .btn-modal:hover {
+  background-color: #06b6d4!important; /* Cyan 500 tailwindcss */
+  border-color: #06b6d4!important; /* Cyan 500 tailwindcss */
+}
+
+.btn-navbar {
+  font-weight: bold;
+}
+
+.btn-user {
+  margin: .5em;
+}
+
+@media only screen and (max-width: 1024px) {
+  
+  .navbar-collapse {
+    flex-direction: column; 
+  }
+
+  .btn-user {
+    margin: .5em;
+  }
+}
